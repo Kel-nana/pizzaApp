@@ -24,7 +24,7 @@ public class PizzaappApplication implements CommandLineRunner {
 	@Override
 	public void run(final String... args) {
 		log.info (
-				String.format("I want a %s crust pizza, with%s and %s sauce",
+				String.format("I want a %s crust pizza, with %s and %s sauce",
 						pizzaConfig.getCrust(),
 						pizzaConfig.getTopping(),
 						pizzaConfig.getSauce()
